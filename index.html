@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Coding Quiz Challenge</title>
+    <link rel="stylesheet" href="styles.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="timer-container">
+        <div id="timer"></div>
+    </div>
+    
+    <div id="intro-container">
+        <h1 class="title">Coding Quiz Challenge</h1>
+        <p>Answer the following code-related questions within the time limit. <br>Note: incorrect answers will penalize your score and time!</p>
+        <div>
+            <button id="start-button">Start</button>
+        </div>
+    </div>
+
+    <div id="question-container" style="display: none;">
+        <div class="QuestionContainer">
+            <p>Commmonly used data types do NOT include:</p>
+            <ul class="no-bullets">
+                <li><button id="strings">strings</button></li>
+                <li><button id="booleans">booleans</button></li>
+                <li><button id="alerts">alerts</button></li>
+                <li><button id="numbers">numbers</button></li>
+            </ul>
+        </div>
+        <div class="QuestionContainer">
+            <p>The condition in an if /else statement is enclosed with ___.</p>
+            <ul class="no-bullets">
+                <li><button id="quotes">quotes</button></li>
+                <li><button id="curly-brackets">curly brackets</button></li>
+                <li><button id="parenthesis">parenthesis</button></li>
+                <li><button id="square-brackets">square brackets</button></li>
+            </ul>
+        </div>
+        <div class="QuestionContainer">
+            <p>Arrays in JavaScript can be used to store ___.</p>
+            <ul class="no-bullets">
+                <li><button id="numbers-and-strings">numbers and strings</button></li>
+                <li><button id="other arrays">other arrays</button></li>
+                <li><button id="booleans2">booleans</button></li>
+                <li><button id="all-above">all of the above</button></li>
+            </ul>
+        </div>
+        <div class="QuestionContainer">
+            <p>String values must be enclosed within ___ when being assigned to variables.</p>
+            <ul class="no-bullets">
+                <li><button id="commas">commas</button></li>
+                <li><button id="curly-brackets2">curly brackets</button></li>
+                <li><button id="quotes">quotes</button></li>
+                <li><button id="parenthesis">parenthesis</button></li>
+            </ul>
+        </div>
+        <div class="QuestionContainer">
+            <p>A very useful tool used during development and debugging for printing content to the debugger is:</p>
+            <ul class="no-bullets">
+                <li><button id="JavaScript">JavaScript</button></li>
+                <li><button id="terminal-bash">terminal/bash</button></li>
+                <li><button id="for-loops">for loops</button></li>
+                <li><button id="console-log">console.log</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="results" style="display:none;">
+        <div id="results-content">
+            <h2>All done!</h2>
+            <p>Your final score is __.</p>
+            <p>Enter initials: <textarea id="initials-input" rows="1" cols="5"></textarea></p>
+            <button id="submit-button">Submit</button>
+        </div>
+    </div>
+
+    <div id="scoresContainer" style="display:none;">
+        <div>
+            <h2>High Scores</h2>
+            <ul class="no-bullets"></ul>
+            <button id="go-back">Go Back</button>
+            <button id="clear-scores">Clear High Scores</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
