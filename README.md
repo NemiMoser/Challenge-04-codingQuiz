@@ -20,7 +20,7 @@
 This is a coding quiz website. The website is designed for the user to take a timed quiz.
 
 ## Features:
--Prompts: The site prompts the user to take a quiz and be directed to the next question as time counts down. The user will lose 10 seconds for every incorrect answer they choose.\
+-Prompts: The site prompts the user to take a quiz and be directed to the next question as time counts down. The user will lose 10 seconds for every incorrect answer they choose.
 
 ## Technologies Used:
 - HTML
